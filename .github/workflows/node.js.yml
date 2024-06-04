@@ -31,4 +31,4 @@ jobs:
     - uses: actions/upload-artifact@v4  # Optional for single-file apps
       with:
          name: build-output
-         path: build/
+         path: dist/
