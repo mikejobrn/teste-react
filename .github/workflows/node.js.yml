@@ -46,4 +46,6 @@ jobs:
       with:
         path: .
     - id: deployment
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       uses: actions/deploy-pages@main
